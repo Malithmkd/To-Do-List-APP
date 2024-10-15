@@ -1,0 +1,95 @@
+
+/*To-Do-list styles*/
+.Todolist {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.todoo {
+  font-size: 4rem;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.Addbutton,
+.DeleteButton,
+.UpButton,
+.DownButton {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 8px 12px;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+  margin-left: 10px;
+}
+
+
+.Addbutton {
+  background-color: rgb(36, 183, 36);
+}
+
+.Addbutton:hover {
+  background-color: green;
+}
+
+.DeleteButton {
+  background-color: red;
+}
+
+.DeleteButton:hover {
+  background-color: rgb(188, 42, 42);
+}
+
+.UpButton {
+  background-color: rgb(34, 115, 255);
+}
+
+.UpButton:hover {
+  background-color: rgb(32, 72, 152);
+}
+
+.DownButton {
+  background-color: aquamarine;
+}
+
+.DownButton:hover {
+  background-color: rgb(25, 119, 88);
+}
+
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 3px solid rgb(67, 61, 61);
+  border-radius: 5px;
+  color: rgb(61, 42, 42);
+}
+
+ol {
+  padding: 0;
+  align-items: center;
+
+}
+
+li {
+  font: 2rem;
+  font-weight: bold;
+  padding: 10px;
+  background-color: azure;
+  margin-bottom: 10px;
+  border: 3px solid wheat;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.text {
+  flex: 1;
+}
